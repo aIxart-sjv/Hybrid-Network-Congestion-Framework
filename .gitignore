@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Models
+models/**/*.json
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.ubj
+
+# Results
+results/**
+
+# OS
+.DS_Store
